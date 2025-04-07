@@ -9,9 +9,9 @@ The carrier signal is selected by a 16-button keypad, which chooses between a se
 The final project closely resembles the Nexys Video DMA Audio Demo available on the Diligent Reference Manual. 
 The team attempted to implement some additional modules, including an audio processing module and additional PMOD interfaces for more audio playback options.
 
-(The project tree below only includes the important files or the files that have changed from the DMA Audio demo)
-ece-vocoder-project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/
-├── Nexys-Video-DMA/
+(The project tree below only includes the important files or the files that have changed from the DMA Audio demo)  
+ece-vocoder-project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/  
+├── Nexys-Video-DMA/  
 │   ├── src/
 │   │   ├── userio/
 │   │   |   ├── userio.c  # added functions to handle 16 button interactions
