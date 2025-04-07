@@ -1,0 +1,2359 @@
+!SESSION 2025-04-01 05:37:13.558 -----------------------------------------------
+eclipse.buildId=2023.2
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\evanc\TESTUNZIP\532_project\Nexys-Video-DMA-hw.xpr\Nexys-Video-HW
+
+This is a continuation of log file C:\Users\evanc\TESTUNZIP\532_project\Nexys-Video-DMA-hw.xpr\Nexys-Video-HW\.metadata\.bak_0.log
+Created Time: 2025-04-01 05:37:48.547
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.547
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.559
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_1_S_AXI": {"name": "axi_gpio_1",
+"base": "0x40010000",
+"high": "0x4001FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_2_S_AXI": {"name": "axi_gpio_2",
+"base": "0x40020000",
+"high": "0x4002FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_iic_0_S_AXI": {"name": "axi_iic_0",
+"base": "0x40800000",
+"high": "0x4080FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_axi_intc_s_axi": {"name": "microblaze_0_axi_intc",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_dma_0_S_AXI_LITE": {"name": "axi_dma_0",
+"base": "0x41E00000",
+"high": "0x41E0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_LITE",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"d_axi_i2s_audio_0_AXI_L": {"name": "d_axi_i2s_audio_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "AXI_L",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x00001FFF",
+"size": "8192",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+"mig_7series_0_S_AXI_memaddr": {"name": "mig_7series_0",
+"base": "0x80000000",
+"high": "0x9FFFFFFF",
+"size": "536870912",
+"slaveintf": "S_AXI",
+"type": "MEMORY",
+"flags": "7",
+"segment": "memaddr",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.560
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_DEBUG_ENABLED], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.563
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.564
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.581
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.583
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.586
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, 1]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.587
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.590
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.591
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_FREQ], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.593
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.614
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.617
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.618
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.624
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.627
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa mdm_1], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.631
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa mdm_1], Result: [null, {}]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.632
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa mdm_1], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.635
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.636
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa mdm_1], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.639
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa mdm_1], Result: [null, microblaze_0]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.680
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.700
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.702
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.797
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys Video 210276689411B]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.798
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.808
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys Video 210276689411B]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.809
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.833
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.844
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.892
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.894
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.922
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.925
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.927
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.928
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.947
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys Video 210276689411B]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.949
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.952
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.954
+!MESSAGE XSCT Command: [version], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.956
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:46
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.959
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.980
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys Video 210276689411B]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:48.981
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.011
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.013
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.023
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys Video 210276689411B]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.024
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.047
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.048
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.056
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys Video 210276689411B]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.057
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.079
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.080
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.089
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys Video 210276689411B]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.090
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.116
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.118
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.153
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys Video 210276689411B]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.155
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.184
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.185
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.213
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.215
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.218
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.220
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.249
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.252
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.276
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.278
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.403
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Result: [null, top_0]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.405
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.410
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.412
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.447
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.448
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.464
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:49.465
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:52.475
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:52.476
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:52.508
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:52.509
+!MESSAGE XSCT Command: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:52.755
+!MESSAGE XSCT command with result: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:52.793
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:52.814
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:52.816
+!MESSAGE XSCT Command: [con], Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:52.836
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:52.853
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-92
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:37:52.858
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-92
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:38:23.074
+!MESSAGE XSCT Command: [platform read {C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/test/platform.spr}], Thread: Worker-6: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:38:23.987
+!MESSAGE XSCT command with result: [platform read {C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/test/platform.spr}], Result: [null, ]. Thread: Worker-6: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:38:24.010
+!MESSAGE XSCT Command: [platform active {test}], Thread: Worker-6: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:38:24.012
+!MESSAGE XSCT command with result: [platform active {test}], Result: [null, ]. Thread: Worker-6: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:30.076
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss ], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:30.084
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:30.085
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:30.090
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "9.0",
+}]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-01 05:43:30.092
+!MESSAGE Generating MD5 hash for file: C:\Users\evanc\TESTUNZIP\532_project\Nexys-Video-DMA-hw.xpr\Nexys-Video-HW\top\export\top\sw\top\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:30.095
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:30.098
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.057
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.065
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.066
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.087
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.087
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.094
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.095
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.119
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.120
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.188
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Result: [null, ]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.190
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.214
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.216
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.220
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.220
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.229
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.230
+!MESSAGE XSCT Command: [version -server], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.232
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.233
+!MESSAGE XSCT Command: [version], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.235
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:46
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.236
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.244
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.244
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.268
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.270
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.279
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.280
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.309
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.310
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.321
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.323
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.347
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.348
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.357
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.358
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.379
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.380
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.390
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.390
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.418
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.419
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.444
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Result: [null, ]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.445
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.447
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.448
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.473
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.474
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.494
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Result: [null, top_0]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.496
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.499
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.501
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.525
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.526
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.536
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:35.537
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:38.548
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:38.550
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:38.584
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:38.585
+!MESSAGE XSCT Command: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:38.809
+!MESSAGE XSCT command with result: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Result: [null, ]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:38.830
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:38.858
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:38.859
+!MESSAGE XSCT Command: [con], Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:38.884
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-8: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:38.895
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-155
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:43:38.900
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-155
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:11.490
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss ], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:11.497
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:11.498
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:11.504
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "9.0",
+}]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-01 05:44:11.505
+!MESSAGE Generating MD5 hash for file: C:\Users\evanc\TESTUNZIP\532_project\Nexys-Video-DMA-hw.xpr\Nexys-Video-HW\top\export\top\sw\top\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:11.507
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:11.511
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.616
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.625
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#5]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.626
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.642
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.643
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.651
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.653
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.678
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.679
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.751
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Result: [null, ]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.752
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.774
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.775
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.778
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#5]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.779
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.789
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.790
+!MESSAGE XSCT Command: [version -server], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.793
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.794
+!MESSAGE XSCT Command: [version], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.796
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:46
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.797
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.807
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.808
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.836
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.837
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.847
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.848
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.880
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.881
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.891
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.891
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.918
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.919
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.928
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.929
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.955
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.956
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.966
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.967
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.996
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:15.997
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.025
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Result: [null, ]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.026
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.029
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.030
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.055
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.057
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.093
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Result: [null, top_0]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.095
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.099
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.100
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.127
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.128
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.135
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:16.137
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:19.146
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:19.148
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:19.183
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:19.185
+!MESSAGE XSCT Command: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:19.428
+!MESSAGE XSCT command with result: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Result: [null, ]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:19.448
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:19.476
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:19.477
+!MESSAGE XSCT Command: [con], Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:19.500
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-1: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:19.512
+!MESSAGE XSCT Command: [disconnect tcfchan#5], Thread: Thread-199
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 05:44:19.518
+!MESSAGE XSCT command with result: [disconnect tcfchan#5], Result: [null, ]. Thread: Thread-199
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-01 08:12:51.425
+!MESSAGE Cannot send datagram packet to /192.168.0.12
+!STACK 0
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.base/java.net.TwoStacksPlainDatagramSocketImpl.send0(Native Method)
+	at java.base/java.net.AbstractPlainDatagramSocketImpl.send(AbstractPlainDatagramSocketImpl.java:155)
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:695)
+	at org.eclipse.tcf.internal.services.local.LocatorService.sendDatagramPacket(LocatorService.java:965)
+	at org.eclipse.tcf.internal.services.local.LocatorService.sendPeersRequest(LocatorService.java:1048)
+	at org.eclipse.tcf.internal.services.local.LocatorService$7.run(LocatorService.java:744)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-01 08:12:53.468
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-01 08:12:53.500
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-01 08:12:53.500
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-01 08:12:53.501
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-01 08:12:53.502
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-01 08:12:53.503
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-01 08:53:19.439
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-01 08:53:19.440
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-01 08:53:19.458
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-01 08:53:19.459
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.427
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.464
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#6]. Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.465
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.482
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.483
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.491
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.491
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.512
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.514
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.566
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Result: [null, ]. Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.568
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:55:59.583
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is not configured]. Thread: Worker-28: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.825
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.827
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#6]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.827
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.834
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.835
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.841
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.842
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.859
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.860
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.901
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Result: [null, ]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.903
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:56:57.906
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is not configured]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.878
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.882
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#6]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.884
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.896
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.897
+!MESSAGE XSCT Command: [version -server], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.901
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.902
+!MESSAGE XSCT Command: [version], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.904
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:46
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.905
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.912
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.912
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.931
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.931
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.938
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.939
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.955
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.956
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.962
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.962
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.979
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.979
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.986
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:00.986
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:01.003
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:01.004
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:01.011
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:01.012
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:01.030
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:01.031
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:01.051
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Result: [null, ]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:01.053
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:01.056
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:01.057
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:57:04.073
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [{Format=no targets found with "name =~ "*microblaze*#0" && bscan=="USER2" ". available targets:
+  1* xc7a200t, Time=1743512224072, Code=1}, ]. Thread: Worker-32: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:09.247
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss ], Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:09.257
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:09.258
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:09.263
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "9.0",
+}]. Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-01 08:58:09.263
+!MESSAGE Generating MD5 hash for file: C:\Users\evanc\TESTUNZIP\532_project\Nexys-Video-DMA-hw.xpr\Nexys-Video-HW\top\export\top\sw\top\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:09.264
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:09.267
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.683
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.685
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#6]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.685
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.691
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.692
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.698
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.699
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.714
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.715
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.746
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Result: [null, ]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.747
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.761
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.762
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.763
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#6]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.764
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.771
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.771
+!MESSAGE XSCT Command: [version -server], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.774
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.774
+!MESSAGE XSCT Command: [version], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.776
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:46
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.776
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.783
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.784
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.809
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.809
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.815
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.816
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.834
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.835
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.842
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.843
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.860
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.860
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.866
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.866
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.883
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.885
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.891
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.891
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.908
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.909
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.928
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Result: [null, ]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.929
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.931
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.932
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.949
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.950
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.967
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Result: [null, top_0]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.967
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.970
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.971
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.991
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.992
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.997
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:31.997
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:35.006
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:35.008
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:35.037
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:35.038
+!MESSAGE XSCT Command: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:35.256
+!MESSAGE XSCT command with result: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Result: [null, ]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:35.272
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:35.289
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:35.291
+!MESSAGE XSCT Command: [con], Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:35.305
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-34: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:35.322
+!MESSAGE XSCT Command: [disconnect tcfchan#6], Thread: Thread-284
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:58:35.325
+!MESSAGE XSCT command with result: [disconnect tcfchan#6], Result: [null, ]. Thread: Thread-284
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:27.023
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:27.026
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa], Result: [null, {"device": "7a200t",
+"family": "artix7",
+"timestamp": "Tue Mar 18 02:39:27 2025",
+"vivado_version": "2023.2",
+"part": "xc7a200tsbg484-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:27.027
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:27.035
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa ], Result: [null, {"microblaze_0": "design_1_i/design_1_i/microblaze_0:design_1_i/design_1_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:27.036
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:27.043
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa], Result: [null, {"axi_dma_0": {"hier_name": "axi_dma_0",
+"type": "axi_dma",
+"version": "7.1",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_iic_0": {"hier_name": "axi_iic_0",
+"type": "axi_iic",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"axi_interconnect_0": {"hier_name": "axi_interconnect_0",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"biquad_filter_0": {"hier_name": "biquad_filter_0",
+"type": "biquad_filter",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"d_axi_i2s_audio_0": {"hier_name": "d_axi_i2s_audio_0",
+"type": "d_axi_i2s_audio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"mig_7series_0": {"hier_name": "mig_7series_0",
+"type": "mig_7series",
+"version": "4.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_mig_7series_0_100M": {"hier_name": "rst_mig_7series_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:31.145
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:31.149
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:31.176
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:31.180
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:31.182
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:31.185
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:47.187
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:47.194
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#7]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:47.196
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:47.206
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:47.207
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:47.215
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:47.215
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:47.233
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:47.235
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:47.278
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:47.279
+!MESSAGE XSCT Command: [fpga -file C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:52.875
+!MESSAGE XSCT command with result: [fpga -file C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:53.689
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:53.696
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:57.908
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:57.911
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#7]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:57.911
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:57.924
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:57.925
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:57.933
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:57.934
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:57.955
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:57.957
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:57.997
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Result: [null, ]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:57.999
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.002
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.003
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.005
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#7]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.006
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.016
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.017
+!MESSAGE XSCT Command: [version -server], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.020
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.020
+!MESSAGE XSCT Command: [version], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.022
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:46
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.023
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.031
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.032
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.053
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.053
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.062
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.063
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.084
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.085
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.094
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.095
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.119
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.120
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.130
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.131
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.164
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.165
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.174
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.175
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.195
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.196
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.217
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Result: [null, ]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.218
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.220
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.222
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.243
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.244
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.274
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Result: [null, top_0]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.276
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.279
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.279
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.300
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.301
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.307
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 08:59:58.308
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:01.324
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:01.325
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:01.349
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:01.350
+!MESSAGE XSCT Command: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:01.579
+!MESSAGE XSCT command with result: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Result: [null, ]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:01.595
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:01.621
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:01.622
+!MESSAGE XSCT Command: [con], Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:01.643
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-14: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:01.652
+!MESSAGE XSCT Command: [disconnect tcfchan#7], Thread: Thread-331
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:01.657
+!MESSAGE XSCT command with result: [disconnect tcfchan#7], Result: [null, ]. Thread: Thread-331
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:20.385
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss ], Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:20.391
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:20.392
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:20.397
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/hw/top.xsa C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "9.0",
+}]. Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-04-01 09:00:20.398
+!MESSAGE Generating MD5 hash for file: C:\Users\evanc\TESTUNZIP\532_project\Nexys-Video-DMA-hw.xpr\Nexys-Video-HW\top\export\top\sw\top\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:20.399
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:20.402
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top/export/top/sw/top/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-32: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.862
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.869
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#8]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.870
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.880
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.881
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.889
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.890
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.909
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.910
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.957
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.958
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.993
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.994
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.996
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#8]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:24.997
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.007
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.007
+!MESSAGE XSCT Command: [version -server], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.009
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.010
+!MESSAGE XSCT Command: [version], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.011
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:46
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.012
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.020
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.022
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.042
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.043
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.050
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.051
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.075
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.076
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.083
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.084
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.107
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.108
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.120
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.121
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.143
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.144
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.152
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.153
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.173
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.174
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.200
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.201
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.204
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.205
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.228
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.230
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.257
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Result: [null, top_0]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.258
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.262
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.263
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.284
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.285
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.291
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:25.291
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:28.304
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:28.305
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:28.332
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:28.333
+!MESSAGE XSCT Command: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:28.563
+!MESSAGE XSCT command with result: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:28.580
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:28.601
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:28.602
+!MESSAGE XSCT Command: [con], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:28.619
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:28.636
+!MESSAGE XSCT Command: [disconnect tcfchan#8], Thread: Thread-372
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:00:28.639
+!MESSAGE XSCT command with result: [disconnect tcfchan#8], Result: [null, ]. Thread: Thread-372
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.363
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.375
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#9]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.376
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.392
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.392
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.399
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.401
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.423
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.424
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.497
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==0 && jtag_device_ctx=="jsn-Nexys Video-210276689411B-13636093-0"}], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.516
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.554
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.555
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.558
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#9]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.558
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.568
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.570
+!MESSAGE XSCT Command: [version -server], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.573
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.573
+!MESSAGE XSCT Command: [version], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.575
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.0
+SW Build 0 on 2023-10-09-15:37:46
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.576
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.586
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.586
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.618
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.619
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.627
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.628
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.651
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.652
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.660
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.661
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.684
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.685
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.694
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.695
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.720
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.721
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.729
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys Video 210276689411B]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.730
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.756
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689411B" && level==1}], Result: [null,      2  xc7a200t (idcode 13636093 irlen 6 fpga)]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.757
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.780
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys Video 210276689411B" && level == 0}], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.782
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.785
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.786
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.821
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.823
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.846
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/evanc/532_current/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/top.xsa -regs], Result: [null, top_0]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.848
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.853
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.854
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.889
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.890
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.903
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:35.904
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:38.921
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:38.946
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:38.970
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:38.971
+!MESSAGE XSCT Command: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:39.192
+!MESSAGE XSCT command with result: [dow C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/Nexys-Video-DMA/Debug/Nexys-Video-DMA.elf], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:39.212
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:39.248
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:39.251
+!MESSAGE XSCT Command: [con], Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:39.273
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-35: Launching Debugger_Nexys-Video-DMA-GDB
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:39.289
+!MESSAGE XSCT Command: [disconnect tcfchan#9], Thread: Thread-406
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-01 09:18:39.294
+!MESSAGE XSCT command with result: [disconnect tcfchan#9], Result: [null, ]. Thread: Thread-406
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 00:19:53.789
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 00:19:53.823
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 00:19:53.824
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 00:19:53.825
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 02:52:12.561
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 02:52:12.614
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 02:52:12.631
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 02:52:12.632
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 06:32:12.629
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 06:32:12.692
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 06:32:12.697
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-04-02 06:32:12.698
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+!SESSION 2025-04-06 16:35:21.329 -----------------------------------------------
+eclipse.buildId=2023.2
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-04-06 16:37:31.344
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2025-04-06 16:37:35.443
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-06 16:37:46.415
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-28
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-06 16:37:46.415
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-06 16:37:46.447
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-06 16:37:46.447
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-28
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-06 16:37:46.447
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-06 16:37:46.447
+!MESSAGE XSCT Command: [setws C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW], Thread: Thread-28
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-06 16:37:51.264
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-06 16:37:51.265
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-06 16:37:51.265
+!MESSAGE XSCT command with result: [setws C:/Users/evanc/TESTUNZIP/532_project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW], Result: [null, ]. Thread: Thread-28
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-04-06 16:37:51.281
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2023.2/data]. Thread: Worker-4: Initializing s/w repositories

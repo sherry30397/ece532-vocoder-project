@@ -1,0 +1,3054 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xEED2AE2EC33C65E9",
+      "device": "xc7a200tsbg484-1",
+      "gen_directory": "../../../../Nexys-Video-HW.gen/sources_1/bd/mod_signal_analysis",
+      "name": "mod_signal_analysis",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "full_wave_rectifier_0": "",
+      "full_wave_rectifier_1": "",
+      "full_wave_rectifier_2": "",
+      "full_wave_rectifier_3": "",
+      "full_wave_rectifier_4": "",
+      "full_wave_rectifier_5": "",
+      "full_wave_rectifier_6": "",
+      "full_wave_rectifier_7": "",
+      "full_wave_rectifier_8": "",
+      "full_wave_rectifier_9": "",
+      "full_wave_rectifier_10": "",
+      "full_wave_rectifier_11": "",
+      "full_wave_rectifier_12": "",
+      "full_wave_rectifier_13": "",
+      "full_wave_rectifier_14": "",
+      "full_wave_rectifier_15": "",
+      "full_wave_rectifier_16": "",
+      "full_wave_rectifier_17": "",
+      "full_wave_rectifier_18": "",
+      "full_wave_rectifier_19": "",
+      "full_wave_rectifier_20": "",
+      "full_wave_rectifier_21": "",
+      "full_wave_rectifier_22": "",
+      "full_wave_rectifier_23": "",
+      "vector_multiplier_0": "",
+      "filterbank_0": "",
+      "filterbank_1": "",
+      "lpf_1": "",
+      "lpf_2": "",
+      "lpf_19": "",
+      "lpf_21": "",
+      "lpf_23": "",
+      "lpf_25": "",
+      "lpf_27": "",
+      "lpf_29": "",
+      "lpf_31": "",
+      "lpf_33": "",
+      "lpf_35": "",
+      "lpf_37": "",
+      "lpf_3": "",
+      "lpf_39": "",
+      "lpf_41": "",
+      "lpf_43": "",
+      "lpf_45": "",
+      "lpf_47": "",
+      "lpf_5": "",
+      "lpf_7": "",
+      "lpf_9": "",
+      "lpf_11": "",
+      "lpf_13": "",
+      "lpf_15": "",
+      "lpf_17": "",
+      "lpf_4": "",
+      "lpf_22": "",
+      "lpf_24": "",
+      "lpf_26": "",
+      "lpf_28": "",
+      "lpf_30": "",
+      "lpf_32": "",
+      "lpf_34": "",
+      "lpf_36": "",
+      "lpf_38": "",
+      "lpf_40": "",
+      "lpf_6": "",
+      "lpf_42": "",
+      "lpf_44": "",
+      "lpf_46": "",
+      "lpf_48": "",
+      "lpf_8": "",
+      "lpf_10": "",
+      "lpf_12": "",
+      "lpf_14": "",
+      "lpf_16": "",
+      "lpf_18": "",
+      "lpf_20": ""
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "reset_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "filterbank_test_sim_clk_gen_1_0_clk"
+          },
+          "FREQ_HZ": {
+            "value": "48000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "x_in_0_0": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "clk_0_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "reset_0_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "mod_signal_analysis_clk_0_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "48000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset_0_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "x_in_0_1": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "result_0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      }
+    },
+    "components": {
+      "full_wave_rectifier_0": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_0_0",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_0_0\\mod_signal_analysis_full_wave_rectifier_0_0.xci",
+        "inst_hier_path": "full_wave_rectifier_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_1": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_0_1",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_0_1\\mod_signal_analysis_full_wave_rectifier_0_1.xci",
+        "inst_hier_path": "full_wave_rectifier_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_2": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_1_0",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_1_0\\mod_signal_analysis_full_wave_rectifier_1_0.xci",
+        "inst_hier_path": "full_wave_rectifier_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_3": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_1_1",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_1_1\\mod_signal_analysis_full_wave_rectifier_1_1.xci",
+        "inst_hier_path": "full_wave_rectifier_3",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_4": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_1_2",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_1_2\\mod_signal_analysis_full_wave_rectifier_1_2.xci",
+        "inst_hier_path": "full_wave_rectifier_4",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_5": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_1_3",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_1_3\\mod_signal_analysis_full_wave_rectifier_1_3.xci",
+        "inst_hier_path": "full_wave_rectifier_5",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_6": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_1_4",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_1_4\\mod_signal_analysis_full_wave_rectifier_1_4.xci",
+        "inst_hier_path": "full_wave_rectifier_6",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_7": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_1_5",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_1_5\\mod_signal_analysis_full_wave_rectifier_1_5.xci",
+        "inst_hier_path": "full_wave_rectifier_7",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_8": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_0",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_0\\mod_signal_analysis_full_wave_rectifier_7_0.xci",
+        "inst_hier_path": "full_wave_rectifier_8",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_9": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_1",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_1\\mod_signal_analysis_full_wave_rectifier_7_1.xci",
+        "inst_hier_path": "full_wave_rectifier_9",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_10": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_2",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_2\\mod_signal_analysis_full_wave_rectifier_7_2.xci",
+        "inst_hier_path": "full_wave_rectifier_10",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_11": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_3",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_3\\mod_signal_analysis_full_wave_rectifier_7_3.xci",
+        "inst_hier_path": "full_wave_rectifier_11",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_12": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_4",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_4\\mod_signal_analysis_full_wave_rectifier_7_4.xci",
+        "inst_hier_path": "full_wave_rectifier_12",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_13": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_5",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_5\\mod_signal_analysis_full_wave_rectifier_7_5.xci",
+        "inst_hier_path": "full_wave_rectifier_13",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_14": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_6",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_6\\mod_signal_analysis_full_wave_rectifier_7_6.xci",
+        "inst_hier_path": "full_wave_rectifier_14",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_15": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_7",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_7\\mod_signal_analysis_full_wave_rectifier_7_7.xci",
+        "inst_hier_path": "full_wave_rectifier_15",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_16": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_8",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_8\\mod_signal_analysis_full_wave_rectifier_7_8.xci",
+        "inst_hier_path": "full_wave_rectifier_16",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_17": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_9",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_9\\mod_signal_analysis_full_wave_rectifier_7_9.xci",
+        "inst_hier_path": "full_wave_rectifier_17",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_18": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_10",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_10\\mod_signal_analysis_full_wave_rectifier_7_10.xci",
+        "inst_hier_path": "full_wave_rectifier_18",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_19": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_11",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_11\\mod_signal_analysis_full_wave_rectifier_7_11.xci",
+        "inst_hier_path": "full_wave_rectifier_19",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_20": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_12",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_12\\mod_signal_analysis_full_wave_rectifier_7_12.xci",
+        "inst_hier_path": "full_wave_rectifier_20",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_21": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_13",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_13\\mod_signal_analysis_full_wave_rectifier_7_13.xci",
+        "inst_hier_path": "full_wave_rectifier_21",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_22": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_14",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_14\\mod_signal_analysis_full_wave_rectifier_7_14.xci",
+        "inst_hier_path": "full_wave_rectifier_22",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "full_wave_rectifier_23": {
+        "vlnv": "xilinx.com:module_ref:full_wave_rectifier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_full_wave_rectifier_7_15",
+        "xci_path": "ip\\mod_signal_analysis_full_wave_rectifier_7_15\\mod_signal_analysis_full_wave_rectifier_7_15.xci",
+        "inst_hier_path": "full_wave_rectifier_23",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_wave_rectifier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "in_signal": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "out_signal": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "vector_multiplier_0": {
+        "vlnv": "xilinx.com:module_ref:vector_multiplier:1.0",
+        "ip_revision": "1",
+        "xci_name": "mod_signal_analysis_vector_multiplier_0_1",
+        "xci_path": "ip\\mod_signal_analysis_vector_multiplier_0_1\\mod_signal_analysis_vector_multiplier_0_1.xci",
+        "inst_hier_path": "vector_multiplier_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "vector_multiplier",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "vec_a_0": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_1": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_2": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_3": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_4": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_5": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_6": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_7": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_8": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_9": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_10": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_11": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_12": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_13": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_14": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_15": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_16": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_17": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_18": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_19": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_20": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_21": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_22": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_a_23": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_0": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_1": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_2": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_3": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_4": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_5": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_6": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_7": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_8": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_9": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_10": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_11": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_12": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_13": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_14": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_15": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_16": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_17": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_18": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_19": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_20": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_21": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_22": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "vec_b_23": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "result": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "filterbank_0": {
+        "vlnv": "xilinx.com:user:filterbank:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_filterbank_0_0",
+        "xci_path": "ip\\mod_signal_analysis_filterbank_0_0\\mod_signal_analysis_filterbank_0_0.xci",
+        "inst_hier_path": "filterbank_0"
+      },
+      "filterbank_1": {
+        "vlnv": "xilinx.com:user:filterbank:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_filterbank_0_1",
+        "xci_path": "ip\\mod_signal_analysis_filterbank_0_1\\mod_signal_analysis_filterbank_0_1.xci",
+        "inst_hier_path": "filterbank_1"
+      },
+      "lpf_1": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_biquad_filter_0_0",
+        "xci_path": "ip\\mod_signal_analysis_biquad_filter_0_0\\mod_signal_analysis_biquad_filter_0_0.xci",
+        "inst_hier_path": "lpf_1",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_2": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_0",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_0\\mod_signal_analysis_lpf_1_0.xci",
+        "inst_hier_path": "lpf_2",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_19": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_10",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_10\\mod_signal_analysis_lpf_1_10.xci",
+        "inst_hier_path": "lpf_19",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_21": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_11",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_11\\mod_signal_analysis_lpf_1_11.xci",
+        "inst_hier_path": "lpf_21",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_23": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_12",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_12\\mod_signal_analysis_lpf_1_12.xci",
+        "inst_hier_path": "lpf_23",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_25": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_13",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_13\\mod_signal_analysis_lpf_1_13.xci",
+        "inst_hier_path": "lpf_25",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_27": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_14",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_14\\mod_signal_analysis_lpf_1_14.xci",
+        "inst_hier_path": "lpf_27",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_29": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_15",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_15\\mod_signal_analysis_lpf_1_15.xci",
+        "inst_hier_path": "lpf_29",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_31": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_16",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_16\\mod_signal_analysis_lpf_1_16.xci",
+        "inst_hier_path": "lpf_31",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_33": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_17",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_17\\mod_signal_analysis_lpf_1_17.xci",
+        "inst_hier_path": "lpf_33",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_35": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_18",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_18\\mod_signal_analysis_lpf_1_18.xci",
+        "inst_hier_path": "lpf_35",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_37": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_19",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_19\\mod_signal_analysis_lpf_1_19.xci",
+        "inst_hier_path": "lpf_37",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_3": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_2",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_2\\mod_signal_analysis_lpf_1_2.xci",
+        "inst_hier_path": "lpf_3",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_39": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_20",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_20\\mod_signal_analysis_lpf_1_20.xci",
+        "inst_hier_path": "lpf_39",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_41": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_21",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_21\\mod_signal_analysis_lpf_1_21.xci",
+        "inst_hier_path": "lpf_41",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_43": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_22",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_22\\mod_signal_analysis_lpf_1_22.xci",
+        "inst_hier_path": "lpf_43",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_45": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_23",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_23\\mod_signal_analysis_lpf_1_23.xci",
+        "inst_hier_path": "lpf_45",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_47": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_24",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_24\\mod_signal_analysis_lpf_1_24.xci",
+        "inst_hier_path": "lpf_47",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_5": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_3",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_3\\mod_signal_analysis_lpf_1_3.xci",
+        "inst_hier_path": "lpf_5",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_7": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_4",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_4\\mod_signal_analysis_lpf_1_4.xci",
+        "inst_hier_path": "lpf_7",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_9": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_5",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_5\\mod_signal_analysis_lpf_1_5.xci",
+        "inst_hier_path": "lpf_9",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_11": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_6",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_6\\mod_signal_analysis_lpf_1_6.xci",
+        "inst_hier_path": "lpf_11",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_13": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_7",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_7\\mod_signal_analysis_lpf_1_7.xci",
+        "inst_hier_path": "lpf_13",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_15": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_8",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_8\\mod_signal_analysis_lpf_1_8.xci",
+        "inst_hier_path": "lpf_15",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_17": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_1_9",
+        "xci_path": "ip\\mod_signal_analysis_lpf_1_9\\mod_signal_analysis_lpf_1_9.xci",
+        "inst_hier_path": "lpf_17",
+        "parameters": {
+          "a1": {
+            "value": "0x80A6"
+          },
+          "a2": {
+            "value": "0x3F5D"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_4": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_1",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_1\\mod_signal_analysis_lpf_2_1.xci",
+        "inst_hier_path": "lpf_4",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_22": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_10",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_10\\mod_signal_analysis_lpf_2_10.xci",
+        "inst_hier_path": "lpf_22",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_24": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_11",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_11\\mod_signal_analysis_lpf_2_11.xci",
+        "inst_hier_path": "lpf_24",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_26": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_12",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_12\\mod_signal_analysis_lpf_2_12.xci",
+        "inst_hier_path": "lpf_26",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_28": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_13",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_13\\mod_signal_analysis_lpf_2_13.xci",
+        "inst_hier_path": "lpf_28",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_30": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_14",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_14\\mod_signal_analysis_lpf_2_14.xci",
+        "inst_hier_path": "lpf_30",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_32": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_15",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_15\\mod_signal_analysis_lpf_2_15.xci",
+        "inst_hier_path": "lpf_32",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_34": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_16",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_16\\mod_signal_analysis_lpf_2_16.xci",
+        "inst_hier_path": "lpf_34",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_36": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_17",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_17\\mod_signal_analysis_lpf_2_17.xci",
+        "inst_hier_path": "lpf_36",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_38": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_18",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_18\\mod_signal_analysis_lpf_2_18.xci",
+        "inst_hier_path": "lpf_38",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_40": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_19",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_19\\mod_signal_analysis_lpf_2_19.xci",
+        "inst_hier_path": "lpf_40",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_6": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_2",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_2\\mod_signal_analysis_lpf_2_2.xci",
+        "inst_hier_path": "lpf_6",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_42": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_20",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_20\\mod_signal_analysis_lpf_2_20.xci",
+        "inst_hier_path": "lpf_42",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_44": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_21",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_21\\mod_signal_analysis_lpf_2_21.xci",
+        "inst_hier_path": "lpf_44",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_46": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_22",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_22\\mod_signal_analysis_lpf_2_22.xci",
+        "inst_hier_path": "lpf_46",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_48": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_23",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_23\\mod_signal_analysis_lpf_2_23.xci",
+        "inst_hier_path": "lpf_48",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_8": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_3",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_3\\mod_signal_analysis_lpf_2_3.xci",
+        "inst_hier_path": "lpf_8",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_10": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_4",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_4\\mod_signal_analysis_lpf_2_4.xci",
+        "inst_hier_path": "lpf_10",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_12": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_5",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_5\\mod_signal_analysis_lpf_2_5.xci",
+        "inst_hier_path": "lpf_12",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_14": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_6",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_6\\mod_signal_analysis_lpf_2_6.xci",
+        "inst_hier_path": "lpf_14",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_16": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_7",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_7\\mod_signal_analysis_lpf_2_7.xci",
+        "inst_hier_path": "lpf_16",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_18": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_8",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_8\\mod_signal_analysis_lpf_2_8.xci",
+        "inst_hier_path": "lpf_18",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      },
+      "lpf_20": {
+        "vlnv": "xilinx.com:user:biquad_filter:1.0",
+        "ip_revision": "2",
+        "xci_name": "mod_signal_analysis_lpf_2_9",
+        "xci_path": "ip\\mod_signal_analysis_lpf_2_9\\mod_signal_analysis_lpf_2_9.xci",
+        "inst_hier_path": "lpf_20",
+        "parameters": {
+          "a1": {
+            "value": "0x818A"
+          },
+          "a2": {
+            "value": "0x3E78"
+          },
+          "b0": {
+            "value": "0x0001"
+          },
+          "b1": {
+            "value": "0x0001"
+          },
+          "b2": {
+            "value": "0x0001"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_0_0_1": {
+        "ports": [
+          "clk_0_0",
+          "filterbank_1/clk_0"
+        ]
+      },
+      "filterbank_0_y_out_0": {
+        "ports": [
+          "filterbank_0/y_out_0",
+          "full_wave_rectifier_0/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_1": {
+        "ports": [
+          "filterbank_0/y_out_1",
+          "full_wave_rectifier_1/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_2": {
+        "ports": [
+          "filterbank_0/y_out_2",
+          "full_wave_rectifier_2/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_3": {
+        "ports": [
+          "filterbank_0/y_out_3",
+          "full_wave_rectifier_3/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_4": {
+        "ports": [
+          "filterbank_0/y_out_4",
+          "full_wave_rectifier_4/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_5": {
+        "ports": [
+          "filterbank_0/y_out_5",
+          "full_wave_rectifier_5/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_6": {
+        "ports": [
+          "filterbank_0/y_out_6",
+          "full_wave_rectifier_6/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_7": {
+        "ports": [
+          "filterbank_0/y_out_7",
+          "full_wave_rectifier_7/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_8": {
+        "ports": [
+          "filterbank_0/y_out_8",
+          "full_wave_rectifier_8/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_9": {
+        "ports": [
+          "filterbank_0/y_out_9",
+          "full_wave_rectifier_9/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_10": {
+        "ports": [
+          "filterbank_0/y_out_10",
+          "full_wave_rectifier_10/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_11": {
+        "ports": [
+          "filterbank_0/y_out_11",
+          "full_wave_rectifier_11/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_12": {
+        "ports": [
+          "filterbank_0/y_out_12",
+          "full_wave_rectifier_12/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_13": {
+        "ports": [
+          "filterbank_0/y_out_13",
+          "full_wave_rectifier_13/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_14": {
+        "ports": [
+          "filterbank_0/y_out_14",
+          "full_wave_rectifier_14/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_15": {
+        "ports": [
+          "filterbank_0/y_out_15",
+          "full_wave_rectifier_15/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_16": {
+        "ports": [
+          "filterbank_0/y_out_16",
+          "full_wave_rectifier_16/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_17": {
+        "ports": [
+          "filterbank_0/y_out_17",
+          "full_wave_rectifier_17/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_18": {
+        "ports": [
+          "filterbank_0/y_out_18",
+          "full_wave_rectifier_18/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_19": {
+        "ports": [
+          "filterbank_0/y_out_19",
+          "full_wave_rectifier_19/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_20": {
+        "ports": [
+          "filterbank_0/y_out_20",
+          "full_wave_rectifier_20/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_21": {
+        "ports": [
+          "filterbank_0/y_out_21",
+          "full_wave_rectifier_21/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_22": {
+        "ports": [
+          "filterbank_0/y_out_22",
+          "full_wave_rectifier_22/in_signal"
+        ]
+      },
+      "filterbank_0_y_out_23": {
+        "ports": [
+          "filterbank_0/y_out_23",
+          "full_wave_rectifier_23/in_signal"
+        ]
+      },
+      "filterbank_1_y_out_0": {
+        "ports": [
+          "filterbank_1/y_out_0",
+          "vector_multiplier_0/vec_b_0"
+        ]
+      },
+      "filterbank_1_y_out_1": {
+        "ports": [
+          "filterbank_1/y_out_1",
+          "vector_multiplier_0/vec_b_1"
+        ]
+      },
+      "filterbank_1_y_out_2": {
+        "ports": [
+          "filterbank_1/y_out_2",
+          "vector_multiplier_0/vec_b_2"
+        ]
+      },
+      "filterbank_1_y_out_3": {
+        "ports": [
+          "filterbank_1/y_out_3",
+          "vector_multiplier_0/vec_b_3"
+        ]
+      },
+      "filterbank_1_y_out_4": {
+        "ports": [
+          "filterbank_1/y_out_4",
+          "vector_multiplier_0/vec_b_4"
+        ]
+      },
+      "filterbank_1_y_out_5": {
+        "ports": [
+          "filterbank_1/y_out_5",
+          "vector_multiplier_0/vec_b_5"
+        ]
+      },
+      "filterbank_1_y_out_6": {
+        "ports": [
+          "filterbank_1/y_out_6",
+          "vector_multiplier_0/vec_b_6"
+        ]
+      },
+      "filterbank_1_y_out_7": {
+        "ports": [
+          "filterbank_1/y_out_7",
+          "vector_multiplier_0/vec_b_7"
+        ]
+      },
+      "filterbank_1_y_out_8": {
+        "ports": [
+          "filterbank_1/y_out_8",
+          "vector_multiplier_0/vec_b_8"
+        ]
+      },
+      "filterbank_1_y_out_9": {
+        "ports": [
+          "filterbank_1/y_out_9",
+          "vector_multiplier_0/vec_b_9"
+        ]
+      },
+      "filterbank_1_y_out_10": {
+        "ports": [
+          "filterbank_1/y_out_10",
+          "vector_multiplier_0/vec_b_10"
+        ]
+      },
+      "filterbank_1_y_out_11": {
+        "ports": [
+          "filterbank_1/y_out_11",
+          "vector_multiplier_0/vec_b_11"
+        ]
+      },
+      "filterbank_1_y_out_12": {
+        "ports": [
+          "filterbank_1/y_out_12",
+          "vector_multiplier_0/vec_b_12"
+        ]
+      },
+      "filterbank_1_y_out_13": {
+        "ports": [
+          "filterbank_1/y_out_13",
+          "vector_multiplier_0/vec_b_13"
+        ]
+      },
+      "filterbank_1_y_out_14": {
+        "ports": [
+          "filterbank_1/y_out_14",
+          "vector_multiplier_0/vec_b_14"
+        ]
+      },
+      "filterbank_1_y_out_15": {
+        "ports": [
+          "filterbank_1/y_out_15",
+          "vector_multiplier_0/vec_b_15"
+        ]
+      },
+      "filterbank_1_y_out_16": {
+        "ports": [
+          "filterbank_1/y_out_16",
+          "vector_multiplier_0/vec_b_16"
+        ]
+      },
+      "filterbank_1_y_out_17": {
+        "ports": [
+          "filterbank_1/y_out_17",
+          "vector_multiplier_0/vec_b_17"
+        ]
+      },
+      "filterbank_1_y_out_18": {
+        "ports": [
+          "filterbank_1/y_out_18",
+          "vector_multiplier_0/vec_b_18"
+        ]
+      },
+      "filterbank_1_y_out_19": {
+        "ports": [
+          "filterbank_1/y_out_19",
+          "vector_multiplier_0/vec_b_19"
+        ]
+      },
+      "filterbank_1_y_out_20": {
+        "ports": [
+          "filterbank_1/y_out_20",
+          "vector_multiplier_0/vec_b_20"
+        ]
+      },
+      "filterbank_1_y_out_21": {
+        "ports": [
+          "filterbank_1/y_out_21",
+          "vector_multiplier_0/vec_b_21"
+        ]
+      },
+      "filterbank_1_y_out_22": {
+        "ports": [
+          "filterbank_1/y_out_22",
+          "vector_multiplier_0/vec_b_22"
+        ]
+      },
+      "filterbank_1_y_out_23": {
+        "ports": [
+          "filterbank_1/y_out_23",
+          "vector_multiplier_0/vec_b_23"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal": {
+        "ports": [
+          "full_wave_rectifier_0/out_signal",
+          "lpf_1/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal1": {
+        "ports": [
+          "full_wave_rectifier_1/out_signal",
+          "lpf_3/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal2": {
+        "ports": [
+          "full_wave_rectifier_10/out_signal",
+          "lpf_5/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal3": {
+        "ports": [
+          "full_wave_rectifier_11/out_signal",
+          "lpf_7/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal4": {
+        "ports": [
+          "full_wave_rectifier_12/out_signal",
+          "lpf_9/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal5": {
+        "ports": [
+          "full_wave_rectifier_13/out_signal",
+          "lpf_11/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal6": {
+        "ports": [
+          "full_wave_rectifier_14/out_signal",
+          "lpf_13/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal7": {
+        "ports": [
+          "full_wave_rectifier_15/out_signal",
+          "lpf_15/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal8": {
+        "ports": [
+          "full_wave_rectifier_16/out_signal",
+          "lpf_17/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal9": {
+        "ports": [
+          "full_wave_rectifier_17/out_signal",
+          "lpf_19/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal10": {
+        "ports": [
+          "full_wave_rectifier_18/out_signal",
+          "lpf_21/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal11": {
+        "ports": [
+          "full_wave_rectifier_19/out_signal",
+          "lpf_23/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal12": {
+        "ports": [
+          "full_wave_rectifier_2/out_signal",
+          "lpf_25/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal13": {
+        "ports": [
+          "full_wave_rectifier_20/out_signal",
+          "lpf_27/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal14": {
+        "ports": [
+          "full_wave_rectifier_21/out_signal",
+          "lpf_29/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal15": {
+        "ports": [
+          "full_wave_rectifier_22/out_signal",
+          "lpf_31/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal16": {
+        "ports": [
+          "full_wave_rectifier_23/out_signal",
+          "lpf_33/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal17": {
+        "ports": [
+          "full_wave_rectifier_3/out_signal",
+          "lpf_35/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal18": {
+        "ports": [
+          "full_wave_rectifier_4/out_signal",
+          "lpf_37/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal19": {
+        "ports": [
+          "full_wave_rectifier_5/out_signal",
+          "lpf_39/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal20": {
+        "ports": [
+          "full_wave_rectifier_6/out_signal",
+          "lpf_41/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal21": {
+        "ports": [
+          "full_wave_rectifier_7/out_signal",
+          "lpf_43/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal22": {
+        "ports": [
+          "full_wave_rectifier_8/out_signal",
+          "lpf_45/x_in"
+        ]
+      },
+      "full_wave_rectifier_0_out_signal23": {
+        "ports": [
+          "full_wave_rectifier_9/out_signal",
+          "lpf_47/x_in"
+        ]
+      },
+      "lpf_10_y_out": {
+        "ports": [
+          "lpf_10/y_out",
+          "vector_multiplier_0/vec_a_4"
+        ]
+      },
+      "lpf_12_y_out": {
+        "ports": [
+          "lpf_12/y_out",
+          "vector_multiplier_0/vec_a_5"
+        ]
+      },
+      "lpf_14_y_out": {
+        "ports": [
+          "lpf_14/y_out",
+          "vector_multiplier_0/vec_a_6"
+        ]
+      },
+      "lpf_16_y_out": {
+        "ports": [
+          "lpf_16/y_out",
+          "vector_multiplier_0/vec_a_7"
+        ]
+      },
+      "lpf_18_y_out": {
+        "ports": [
+          "lpf_18/y_out",
+          "vector_multiplier_0/vec_a_8"
+        ]
+      },
+      "lpf_1_y_out": {
+        "ports": [
+          "lpf_1/y_out",
+          "lpf_2/x_in"
+        ]
+      },
+      "lpf_1_y_out1": {
+        "ports": [
+          "lpf_3/y_out",
+          "lpf_4/x_in"
+        ]
+      },
+      "lpf_1_y_out2": {
+        "ports": [
+          "lpf_5/y_out",
+          "lpf_6/x_in"
+        ]
+      },
+      "lpf_1_y_out3": {
+        "ports": [
+          "lpf_7/y_out",
+          "lpf_8/x_in"
+        ]
+      },
+      "lpf_1_y_out4": {
+        "ports": [
+          "lpf_9/y_out",
+          "lpf_10/x_in"
+        ]
+      },
+      "lpf_1_y_out5": {
+        "ports": [
+          "lpf_11/y_out",
+          "lpf_12/x_in"
+        ]
+      },
+      "lpf_1_y_out6": {
+        "ports": [
+          "lpf_13/y_out",
+          "lpf_14/x_in"
+        ]
+      },
+      "lpf_1_y_out7": {
+        "ports": [
+          "lpf_15/y_out",
+          "lpf_16/x_in"
+        ]
+      },
+      "lpf_1_y_out8": {
+        "ports": [
+          "lpf_17/y_out",
+          "lpf_18/x_in"
+        ]
+      },
+      "lpf_1_y_out9": {
+        "ports": [
+          "lpf_19/y_out",
+          "lpf_20/x_in"
+        ]
+      },
+      "lpf_1_y_out10": {
+        "ports": [
+          "lpf_21/y_out",
+          "lpf_22/x_in"
+        ]
+      },
+      "lpf_1_y_out11": {
+        "ports": [
+          "lpf_23/y_out",
+          "lpf_24/x_in"
+        ]
+      },
+      "lpf_1_y_out12": {
+        "ports": [
+          "lpf_25/y_out",
+          "lpf_26/x_in"
+        ]
+      },
+      "lpf_1_y_out13": {
+        "ports": [
+          "lpf_27/y_out",
+          "lpf_28/x_in"
+        ]
+      },
+      "lpf_1_y_out14": {
+        "ports": [
+          "lpf_29/y_out",
+          "lpf_30/x_in"
+        ]
+      },
+      "lpf_1_y_out15": {
+        "ports": [
+          "lpf_31/y_out",
+          "lpf_32/x_in"
+        ]
+      },
+      "lpf_1_y_out16": {
+        "ports": [
+          "lpf_33/y_out",
+          "lpf_34/x_in"
+        ]
+      },
+      "lpf_1_y_out17": {
+        "ports": [
+          "lpf_35/y_out",
+          "lpf_36/x_in"
+        ]
+      },
+      "lpf_1_y_out18": {
+        "ports": [
+          "lpf_37/y_out",
+          "lpf_38/x_in"
+        ]
+      },
+      "lpf_1_y_out19": {
+        "ports": [
+          "lpf_39/y_out",
+          "lpf_40/x_in"
+        ]
+      },
+      "lpf_1_y_out20": {
+        "ports": [
+          "lpf_41/y_out",
+          "lpf_42/x_in"
+        ]
+      },
+      "lpf_1_y_out21": {
+        "ports": [
+          "lpf_43/y_out",
+          "lpf_44/x_in"
+        ]
+      },
+      "lpf_1_y_out22": {
+        "ports": [
+          "lpf_45/y_out",
+          "lpf_46/x_in"
+        ]
+      },
+      "lpf_1_y_out23": {
+        "ports": [
+          "lpf_47/y_out",
+          "lpf_48/x_in"
+        ]
+      },
+      "lpf_20_y_out": {
+        "ports": [
+          "lpf_20/y_out",
+          "vector_multiplier_0/vec_a_9"
+        ]
+      },
+      "lpf_22_y_out": {
+        "ports": [
+          "lpf_22/y_out",
+          "vector_multiplier_0/vec_a_10"
+        ]
+      },
+      "lpf_24_y_out": {
+        "ports": [
+          "lpf_24/y_out",
+          "vector_multiplier_0/vec_a_11"
+        ]
+      },
+      "lpf_26_y_out": {
+        "ports": [
+          "lpf_26/y_out",
+          "vector_multiplier_0/vec_a_12"
+        ]
+      },
+      "lpf_28_y_out": {
+        "ports": [
+          "lpf_28/y_out",
+          "vector_multiplier_0/vec_a_13"
+        ]
+      },
+      "lpf_2_y_out": {
+        "ports": [
+          "lpf_2/y_out",
+          "vector_multiplier_0/vec_a_0"
+        ]
+      },
+      "lpf_30_y_out": {
+        "ports": [
+          "lpf_30/y_out",
+          "vector_multiplier_0/vec_a_14"
+        ]
+      },
+      "lpf_32_y_out": {
+        "ports": [
+          "lpf_32/y_out",
+          "vector_multiplier_0/vec_a_15"
+        ]
+      },
+      "lpf_34_y_out": {
+        "ports": [
+          "lpf_34/y_out",
+          "vector_multiplier_0/vec_a_16"
+        ]
+      },
+      "lpf_36_y_out": {
+        "ports": [
+          "lpf_36/y_out",
+          "vector_multiplier_0/vec_a_17"
+        ]
+      },
+      "lpf_38_y_out": {
+        "ports": [
+          "lpf_38/y_out",
+          "vector_multiplier_0/vec_a_18"
+        ]
+      },
+      "lpf_40_y_out": {
+        "ports": [
+          "lpf_40/y_out",
+          "vector_multiplier_0/vec_a_19"
+        ]
+      },
+      "lpf_42_y_out": {
+        "ports": [
+          "lpf_42/y_out",
+          "vector_multiplier_0/vec_a_20"
+        ]
+      },
+      "lpf_44_y_out": {
+        "ports": [
+          "lpf_44/y_out",
+          "vector_multiplier_0/vec_a_21"
+        ]
+      },
+      "lpf_46_y_out": {
+        "ports": [
+          "lpf_46/y_out",
+          "vector_multiplier_0/vec_a_22"
+        ]
+      },
+      "lpf_48_y_out": {
+        "ports": [
+          "lpf_48/y_out",
+          "vector_multiplier_0/vec_a_23"
+        ]
+      },
+      "lpf_4_y_out": {
+        "ports": [
+          "lpf_4/y_out",
+          "vector_multiplier_0/vec_a_1"
+        ]
+      },
+      "lpf_6_y_out": {
+        "ports": [
+          "lpf_6/y_out",
+          "vector_multiplier_0/vec_a_2"
+        ]
+      },
+      "lpf_8_y_out": {
+        "ports": [
+          "lpf_8/y_out",
+          "vector_multiplier_0/vec_a_3"
+        ]
+      },
+      "reset_0_0_1": {
+        "ports": [
+          "reset_0_0",
+          "filterbank_1/reset_0"
+        ]
+      },
+      "sim_clk_gen_1_clk": {
+        "ports": [
+          "clk_0",
+          "lpf_1/clk",
+          "filterbank_0/clk_0",
+          "lpf_2/clk",
+          "lpf_19/clk",
+          "lpf_21/clk",
+          "lpf_23/clk",
+          "lpf_25/clk",
+          "lpf_27/clk",
+          "lpf_29/clk",
+          "lpf_31/clk",
+          "lpf_33/clk",
+          "lpf_35/clk",
+          "lpf_37/clk",
+          "lpf_3/clk",
+          "lpf_39/clk",
+          "lpf_41/clk",
+          "lpf_43/clk",
+          "lpf_45/clk",
+          "lpf_47/clk",
+          "lpf_5/clk",
+          "lpf_7/clk",
+          "lpf_9/clk",
+          "lpf_11/clk",
+          "lpf_13/clk",
+          "lpf_15/clk",
+          "lpf_17/clk",
+          "lpf_4/clk",
+          "lpf_22/clk",
+          "lpf_24/clk",
+          "lpf_26/clk",
+          "lpf_28/clk",
+          "lpf_30/clk",
+          "lpf_32/clk",
+          "lpf_34/clk",
+          "lpf_36/clk",
+          "lpf_38/clk",
+          "lpf_40/clk",
+          "lpf_6/clk",
+          "lpf_42/clk",
+          "lpf_44/clk",
+          "lpf_46/clk",
+          "lpf_48/clk",
+          "lpf_8/clk",
+          "lpf_10/clk",
+          "lpf_12/clk",
+          "lpf_14/clk",
+          "lpf_16/clk",
+          "lpf_18/clk",
+          "lpf_20/clk"
+        ]
+      },
+      "sim_clk_gen_1_sync_rst": {
+        "ports": [
+          "reset_0",
+          "lpf_1/reset",
+          "filterbank_0/reset_0",
+          "lpf_2/reset",
+          "lpf_19/reset",
+          "lpf_21/reset",
+          "lpf_23/reset",
+          "lpf_25/reset",
+          "lpf_27/reset",
+          "lpf_29/reset",
+          "lpf_31/reset",
+          "lpf_33/reset",
+          "lpf_35/reset",
+          "lpf_37/reset",
+          "lpf_3/reset",
+          "lpf_39/reset",
+          "lpf_41/reset",
+          "lpf_43/reset",
+          "lpf_45/reset",
+          "lpf_47/reset",
+          "lpf_5/reset",
+          "lpf_7/reset",
+          "lpf_9/reset",
+          "lpf_11/reset",
+          "lpf_13/reset",
+          "lpf_15/reset",
+          "lpf_17/reset",
+          "lpf_4/reset",
+          "lpf_22/reset",
+          "lpf_24/reset",
+          "lpf_26/reset",
+          "lpf_28/reset",
+          "lpf_30/reset",
+          "lpf_32/reset",
+          "lpf_34/reset",
+          "lpf_36/reset",
+          "lpf_38/reset",
+          "lpf_40/reset",
+          "lpf_6/reset",
+          "lpf_42/reset",
+          "lpf_44/reset",
+          "lpf_46/reset",
+          "lpf_48/reset",
+          "lpf_8/reset",
+          "lpf_10/reset",
+          "lpf_12/reset",
+          "lpf_14/reset",
+          "lpf_16/reset",
+          "lpf_18/reset",
+          "lpf_20/reset"
+        ]
+      },
+      "vector_multiplier_0_result": {
+        "ports": [
+          "vector_multiplier_0/result",
+          "result_0"
+        ]
+      },
+      "x_in_0_0_1": {
+        "ports": [
+          "x_in_0_0",
+          "filterbank_0/x_in_0"
+        ]
+      },
+      "x_in_0_1_1": {
+        "ports": [
+          "x_in_0_1",
+          "filterbank_1/x_in_0"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx_import_archive_file_v2" value="C:\Users\evanc\532_project\Nexys-Video-DMA-sw.ide.zip"/>
+	<item key="scw_hwspec" value="C:\Users\evanc\TESTUNZIP\532_project\Nexys-Video-DMA-hw.xpr\Nexys-Video-HW"/>
+	<item key="scw_hwspec_file_selection" value="C:\Users\evanc\532_current\532_project\Nexys-Video-DMA-hw.xpr\Nexys-Video-HW"/>
+	<item key="debug_files_selection" value="C:\Users\evanc\532_current\532_project\Nexys-Video-DMA-hw.xpr\Nexys-Video-HW"/>
+	<item key="sdx_program_fpga_view_bit_bmm_browse_key" value="C:\Users\evanc\532_current\532_project\Nexys-Video-DMA-hw.xpr\Nexys-Video-HW"/>
+</section>

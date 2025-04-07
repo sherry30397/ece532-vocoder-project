@@ -1,0 +1,2850 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Mar 25 10:03:00 2025" VIVADOVERSION="2023.2">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:nexys_video:part0:1.2" DEVICE="7a200t" NAME="mod_signal_analysis" PACKAGE="sbg484" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk_0" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="lpf_1" PORT="clk"/>
+        <CONNECTION INSTANCE="filterbank_0" PORT="clk_0"/>
+        <CONNECTION INSTANCE="lpf_2" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_19" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_21" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_23" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_25" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_27" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_29" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_31" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_33" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_35" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_37" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_3" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_39" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_41" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_43" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_45" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_47" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_5" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_7" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_9" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_11" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_13" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_15" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_17" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_4" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_22" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_24" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_26" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_28" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_30" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_32" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_34" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_36" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_38" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_40" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_6" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_42" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_44" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_46" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_48" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_8" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_10" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_12" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_14" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_16" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_18" PORT="clk"/>
+        <CONNECTION INSTANCE="lpf_20" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk_0_0" SIGIS="clk" SIGNAME="External_Ports_clk_0_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="filterbank_1" PORT="clk_0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="reset_0" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="lpf_1" PORT="reset"/>
+        <CONNECTION INSTANCE="filterbank_0" PORT="reset_0"/>
+        <CONNECTION INSTANCE="lpf_2" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_19" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_21" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_23" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_25" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_27" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_29" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_31" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_33" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_35" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_37" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_3" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_39" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_41" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_43" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_45" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_47" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_5" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_7" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_9" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_11" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_13" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_15" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_17" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_4" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_22" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_24" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_26" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_28" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_30" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_32" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_34" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_36" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_38" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_40" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_6" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_42" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_44" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_46" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_48" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_8" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_10" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_12" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_14" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_16" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_18" PORT="reset"/>
+        <CONNECTION INSTANCE="lpf_20" PORT="reset"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="reset_0_0" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="filterbank_1" PORT="reset_0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="result_0" RIGHT="0" SIGIS="undef" SIGNAME="vector_multiplier_0_result">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="vector_multiplier_0" PORT="result"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="x_in_0_0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_x_in_0_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="filterbank_0" PORT="x_in_0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="x_in_0_1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_x_in_0_1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="filterbank_1" PORT="x_in_0"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/filterbank_0" HWVERSION="1.0" INSTANCE="filterbank_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="filterbank" VLNV="xilinx.com:user:filterbank:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_filterbank_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk_0" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset_0" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in_0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_x_in_0_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="x_in_0_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_0" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_0" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_1" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_1" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_2" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_2" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_3" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_3" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_4" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_4" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_5" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_5" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_6" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_6" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_7" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_7" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_8" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_8" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_9" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_9" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_10" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_10" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_11" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_11" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_12" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_12" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_13" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_13" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_14" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_14" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_15" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_15" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_16" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_16">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_16" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_17" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_17">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_17" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_18" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_18">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_18" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_19" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_19">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_19" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_20" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_20">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_20" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_21" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_21">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_21" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_22" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_22" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_23" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_23">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_23" PORT="in_signal"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/filterbank_1" HWVERSION="1.0" INSTANCE="filterbank_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="filterbank" VLNV="xilinx.com:user:filterbank:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_filterbank_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk_0" SIGIS="clk" SIGNAME="External_Ports_clk_0_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset_0" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in_0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_x_in_0_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="x_in_0_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_0" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_1" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_2" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_3" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_4" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_5" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_6" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_7" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_8" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_9" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_10" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_11" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_12" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_13" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_14" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_15" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_15"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_16" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_16">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_16"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_17" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_17">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_17"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_18" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_18">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_18"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_19" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_19">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_19"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_20" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_20">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_20"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_21" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_21">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_21"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_22" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out_23" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_23">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_b_23"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_0" HWVERSION="1.0" INSTANCE="full_wave_rectifier_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_0_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_1" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_1" HWVERSION="1.0" INSTANCE="full_wave_rectifier_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_1_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_3" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_10" HWVERSION="1.0" INSTANCE="full_wave_rectifier_10" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_10_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_5" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_11" HWVERSION="1.0" INSTANCE="full_wave_rectifier_11" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_11_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_7" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_12" HWVERSION="1.0" INSTANCE="full_wave_rectifier_12" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_12_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_9" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_13" HWVERSION="1.0" INSTANCE="full_wave_rectifier_13" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_13_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_11" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_14" HWVERSION="1.0" INSTANCE="full_wave_rectifier_14" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_14_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_13" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_15" HWVERSION="1.0" INSTANCE="full_wave_rectifier_15" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_15"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_15_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_15" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_16" HWVERSION="1.0" INSTANCE="full_wave_rectifier_16" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_16">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_16"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_16_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_17" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_17" HWVERSION="1.0" INSTANCE="full_wave_rectifier_17" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_9"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_17">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_17"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_17_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_19" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_18" HWVERSION="1.0" INSTANCE="full_wave_rectifier_18" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_10"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_18">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_18"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_18_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_21" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_19" HWVERSION="1.0" INSTANCE="full_wave_rectifier_19" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_11"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_19">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_19"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_19_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_23" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_2" HWVERSION="1.0" INSTANCE="full_wave_rectifier_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_2_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_25" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_20" HWVERSION="1.0" INSTANCE="full_wave_rectifier_20" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_12"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_20">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_20"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_20_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_27" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_21" HWVERSION="1.0" INSTANCE="full_wave_rectifier_21" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_13"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_21">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_21"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_21_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_29" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_22" HWVERSION="1.0" INSTANCE="full_wave_rectifier_22" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_14"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_22_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_31" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_23" HWVERSION="1.0" INSTANCE="full_wave_rectifier_23" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_15"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_23">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_23"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_23_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_33" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_3" HWVERSION="1.0" INSTANCE="full_wave_rectifier_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_3_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_35" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_4" HWVERSION="1.0" INSTANCE="full_wave_rectifier_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_1_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_4_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_37" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_5" HWVERSION="1.0" INSTANCE="full_wave_rectifier_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_1_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_5_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_39" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_6" HWVERSION="1.0" INSTANCE="full_wave_rectifier_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_1_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_6_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_41" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_7" HWVERSION="1.0" INSTANCE="full_wave_rectifier_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_1_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_7_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_43" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_8" HWVERSION="1.0" INSTANCE="full_wave_rectifier_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_8_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_45" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/full_wave_rectifier_9" HWVERSION="1.0" INSTANCE="full_wave_rectifier_9" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="full_wave_rectifier" VLNV="xilinx.com:module_ref:full_wave_rectifier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_full_wave_rectifier_7_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="in_signal" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_0_y_out_9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_0" PORT="y_out_9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="out_signal" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_9_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_47" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_1" HWVERSION="1.0" INSTANCE="lpf_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_biquad_filter_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_0_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_0" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_1_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_2" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_10" HWVERSION="1.0" INSTANCE="lpf_10" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_9_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_9" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_10_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_11" HWVERSION="1.0" INSTANCE="lpf_11" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_13_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_13" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_11_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_12" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_12" HWVERSION="1.0" INSTANCE="lpf_12" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_11_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_11" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_12_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_5"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_13" HWVERSION="1.0" INSTANCE="lpf_13" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_14_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_14" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_13_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_14" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_14" HWVERSION="1.0" INSTANCE="lpf_14" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_13_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_13" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_14_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_6"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_15" HWVERSION="1.0" INSTANCE="lpf_15" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_15_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_15" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_15_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_16" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_16" HWVERSION="1.0" INSTANCE="lpf_16" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_15_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_15" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_16_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_7"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_17" HWVERSION="1.0" INSTANCE="lpf_17" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_9"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_16_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_16" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_17_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_18" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_18" HWVERSION="1.0" INSTANCE="lpf_18" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_17_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_17" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_18_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_8"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_19" HWVERSION="1.0" INSTANCE="lpf_19" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_10"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_17_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_17" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_19_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_20" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_2" HWVERSION="1.0" INSTANCE="lpf_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_1_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_1" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_2_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_20" HWVERSION="1.0" INSTANCE="lpf_20" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_9"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_19_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_19" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_20_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_9"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_21" HWVERSION="1.0" INSTANCE="lpf_21" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_11"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_18_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_18" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_21_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_22" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_22" HWVERSION="1.0" INSTANCE="lpf_22" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_10"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_21_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_21" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_22_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_10"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_23" HWVERSION="1.0" INSTANCE="lpf_23" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_12"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_19_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_19" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_23_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_24" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_24" HWVERSION="1.0" INSTANCE="lpf_24" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_11"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_23_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_23" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_24_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_11"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_25" HWVERSION="1.0" INSTANCE="lpf_25" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_13"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_2_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_2" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_25_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_26" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_26" HWVERSION="1.0" INSTANCE="lpf_26" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_12"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_25_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_25" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_26_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_12"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_27" HWVERSION="1.0" INSTANCE="lpf_27" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_14"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_20_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_20" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_27_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_28" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_28" HWVERSION="1.0" INSTANCE="lpf_28" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_13"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_27_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_27" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_28_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_13"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_29" HWVERSION="1.0" INSTANCE="lpf_29" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_15"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_21_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_21" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_29_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_30" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_3" HWVERSION="1.0" INSTANCE="lpf_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_1_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_1" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_3_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_4" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_30" HWVERSION="1.0" INSTANCE="lpf_30" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_14"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_29_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_29" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_30_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_14"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_31" HWVERSION="1.0" INSTANCE="lpf_31" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_16"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_22_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_22" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_31_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_32" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_32" HWVERSION="1.0" INSTANCE="lpf_32" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_15"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_31_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_31" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_32_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_15"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_33" HWVERSION="1.0" INSTANCE="lpf_33" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_17"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_23_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_23" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_33_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_34" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_34" HWVERSION="1.0" INSTANCE="lpf_34" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_16"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_33_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_33" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_34_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_16"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_35" HWVERSION="1.0" INSTANCE="lpf_35" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_18"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_3_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_3" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_35_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_36" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_36" HWVERSION="1.0" INSTANCE="lpf_36" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_17"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_35_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_35" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_36_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_17"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_37" HWVERSION="1.0" INSTANCE="lpf_37" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_19"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_4_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_4" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_37_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_38" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_38" HWVERSION="1.0" INSTANCE="lpf_38" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_18"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_37_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_37" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_38_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_18"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_39" HWVERSION="1.0" INSTANCE="lpf_39" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_20"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_5_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_5" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_39_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_40" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_4" HWVERSION="1.0" INSTANCE="lpf_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_3_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_3" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_4_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_40" HWVERSION="1.0" INSTANCE="lpf_40" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_19"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_39_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_39" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_40_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_19"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_41" HWVERSION="1.0" INSTANCE="lpf_41" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_21"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_6_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_6" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_41_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_42" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_42" HWVERSION="1.0" INSTANCE="lpf_42" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_20"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_41_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_41" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_42_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_20"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_43" HWVERSION="1.0" INSTANCE="lpf_43" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_22"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_7_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_7" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_43_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_44" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_44" HWVERSION="1.0" INSTANCE="lpf_44" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_21"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_43_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_43" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_44_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_21"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_45" HWVERSION="1.0" INSTANCE="lpf_45" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_23"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_8_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_8" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_45_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_46" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_46" HWVERSION="1.0" INSTANCE="lpf_46" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_22"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_45_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_45" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_46_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_22"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_47" HWVERSION="1.0" INSTANCE="lpf_47" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_24"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_9_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_9" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_47_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_48" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_48" HWVERSION="1.0" INSTANCE="lpf_48" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_23"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_47_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_47" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_48_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_23"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_5" HWVERSION="1.0" INSTANCE="lpf_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_10_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_10" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_5_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_6" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_6" HWVERSION="1.0" INSTANCE="lpf_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_5_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_5" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_6_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_7" HWVERSION="1.0" INSTANCE="lpf_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_11_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_11" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_7_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_8" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_8" HWVERSION="1.0" INSTANCE="lpf_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x818A"/>
+        <PARAMETER NAME="a2" VALUE="0x3E78"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_2_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="lpf_7_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_7" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_8_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="vector_multiplier_0" PORT="vec_a_3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lpf_9" HWVERSION="1.0" INSTANCE="lpf_9" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="biquad_filter" VLNV="xilinx.com:user:biquad_filter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="a1" VALUE="0x80A6"/>
+        <PARAMETER NAME="a2" VALUE="0x3F5D"/>
+        <PARAMETER NAME="b0" VALUE="0x0001"/>
+        <PARAMETER NAME="b1" VALUE="0x0001"/>
+        <PARAMETER NAME="b2" VALUE="0x0001"/>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_lpf_1_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="48000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="x_in" RIGHT="0" SIGIS="undef" SIGNAME="full_wave_rectifier_12_out_signal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="full_wave_rectifier_12" PORT="out_signal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="y_out" RIGHT="0" SIGIS="undef" SIGNAME="lpf_9_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_10" PORT="x_in"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/vector_multiplier_0" HWVERSION="1.0" INSTANCE="vector_multiplier_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="vector_multiplier" VLNV="xilinx.com:module_ref:vector_multiplier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="mod_signal_analysis_vector_multiplier_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="31" NAME="result" RIGHT="0" SIGIS="undef" SIGNAME="vector_multiplier_0_result">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="result_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_0" RIGHT="0" SIGIS="undef" SIGNAME="lpf_2_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_2" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_1" RIGHT="0" SIGIS="undef" SIGNAME="lpf_4_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_4" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_2" RIGHT="0" SIGIS="undef" SIGNAME="lpf_6_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_6" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_3" RIGHT="0" SIGIS="undef" SIGNAME="lpf_8_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_8" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_4" RIGHT="0" SIGIS="undef" SIGNAME="lpf_10_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_10" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_5" RIGHT="0" SIGIS="undef" SIGNAME="lpf_12_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_12" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_6" RIGHT="0" SIGIS="undef" SIGNAME="lpf_14_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_14" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_7" RIGHT="0" SIGIS="undef" SIGNAME="lpf_16_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_16" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_8" RIGHT="0" SIGIS="undef" SIGNAME="lpf_18_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_18" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_9" RIGHT="0" SIGIS="undef" SIGNAME="lpf_20_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_20" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_10" RIGHT="0" SIGIS="undef" SIGNAME="lpf_22_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_22" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_11" RIGHT="0" SIGIS="undef" SIGNAME="lpf_24_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_24" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_12" RIGHT="0" SIGIS="undef" SIGNAME="lpf_26_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_26" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_13" RIGHT="0" SIGIS="undef" SIGNAME="lpf_28_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_28" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_14" RIGHT="0" SIGIS="undef" SIGNAME="lpf_30_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_30" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_15" RIGHT="0" SIGIS="undef" SIGNAME="lpf_32_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_32" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_16" RIGHT="0" SIGIS="undef" SIGNAME="lpf_34_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_34" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_17" RIGHT="0" SIGIS="undef" SIGNAME="lpf_36_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_36" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_18" RIGHT="0" SIGIS="undef" SIGNAME="lpf_38_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_38" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_19" RIGHT="0" SIGIS="undef" SIGNAME="lpf_40_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_40" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_20" RIGHT="0" SIGIS="undef" SIGNAME="lpf_42_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_42" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_21" RIGHT="0" SIGIS="undef" SIGNAME="lpf_44_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_44" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_22" RIGHT="0" SIGIS="undef" SIGNAME="lpf_46_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_46" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_a_23" RIGHT="0" SIGIS="undef" SIGNAME="lpf_48_y_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lpf_48" PORT="y_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_0" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_1" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_2" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_3" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_4" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_5" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_6" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_7" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_8" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_9" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_10" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_11" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_12" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_13" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_14" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_15" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_15"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_16" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_16">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_16"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_17" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_17">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_17"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_18" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_18">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_18"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_19" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_19">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_19"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_20" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_20">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_20"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_21" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_21">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_21"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_22" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_22">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="vec_b_23" RIGHT="0" SIGIS="undef" SIGNAME="filterbank_1_y_out_23">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="filterbank_1" PORT="y_out_23"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

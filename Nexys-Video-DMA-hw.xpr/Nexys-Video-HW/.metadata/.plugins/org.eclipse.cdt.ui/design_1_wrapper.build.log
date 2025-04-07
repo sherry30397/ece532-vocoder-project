@@ -1,0 +1,27 @@
+03:01:09 **** Clean-only build of project design_1_wrapper ****
+buildplatform.bat 51988 design_1_wrapper clean 
+ECHO is off.
+ECHO is off.
+XSDB Server Channel: tcfchan#11
+Cleaning the BSP for domain  - domain_microblaze_0
+make -C microblaze_0/libsrc/axidma_v9_14/src -s clean 
+
+make -C microblaze_0/libsrc/bram_v4_7/src -s clean 
+
+make -C microblaze_0/libsrc/cpu_v2_15/src -s clean 
+
+make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+make -C microblaze_0/libsrc/iic_v3_9/src -s clean 
+
+make -C microblaze_0/libsrc/intc_v3_14/src -s clean 
+
+make -C microblaze_0/libsrc/standalone_v7_7/src -s clean 
+
+make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+rm -f microblaze_0/lib/libxil.a
+
+
+03:01:15 Build Finished (took 5s.907ms)
+

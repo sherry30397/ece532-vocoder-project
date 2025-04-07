@@ -1,0 +1,221 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.758885",
+   "Default View_TopLeft":"-181,1836",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_clk_0 -pg 1 -lvl 0 -x -50 -y 2070 -defaultsOSRD
+preplace port port-id_reset_0 -pg 1 -lvl 0 -x -50 -y 2100 -defaultsOSRD
+preplace port port-id_clk_0_0 -pg 1 -lvl 0 -x -50 -y 2800 -defaultsOSRD
+preplace port port-id_reset_0_0 -pg 1 -lvl 0 -x -50 -y 2890 -defaultsOSRD
+preplace portBus x_in_0_0 -pg 1 -lvl 0 -x -50 -y 2130 -defaultsOSRD
+preplace portBus x_in_0_1 -pg 1 -lvl 0 -x -50 -y 2830 -defaultsOSRD
+preplace portBus result_0 -pg 1 -lvl 6 -x 1990 -y 2410 -defaultsOSRD
+preplace inst full_wave_rectifier_0 -pg 1 -lvl 2 -x 590 -y 260 -defaultsOSRD
+preplace inst full_wave_rectifier_1 -pg 1 -lvl 2 -x 590 -y 120 -defaultsOSRD
+preplace inst full_wave_rectifier_2 -pg 1 -lvl 2 -x 590 -y 1380 -defaultsOSRD
+preplace inst full_wave_rectifier_3 -pg 1 -lvl 2 -x 590 -y 2220 -defaultsOSRD
+preplace inst full_wave_rectifier_4 -pg 1 -lvl 2 -x 590 -y 2320 -defaultsOSRD
+preplace inst full_wave_rectifier_5 -pg 1 -lvl 2 -x 590 -y 2420 -defaultsOSRD
+preplace inst full_wave_rectifier_6 -pg 1 -lvl 2 -x 590 -y 2520 -defaultsOSRD
+preplace inst full_wave_rectifier_7 -pg 1 -lvl 2 -x 590 -y 2620 -defaultsOSRD
+preplace inst full_wave_rectifier_8 -pg 1 -lvl 2 -x 590 -y 2720 -defaultsOSRD
+preplace inst full_wave_rectifier_9 -pg 1 -lvl 2 -x 590 -y 2820 -defaultsOSRD
+preplace inst full_wave_rectifier_10 -pg 1 -lvl 2 -x 590 -y 1820 -defaultsOSRD
+preplace inst full_wave_rectifier_11 -pg 1 -lvl 2 -x 590 -y 1920 -defaultsOSRD
+preplace inst full_wave_rectifier_12 -pg 1 -lvl 2 -x 590 -y 2020 -defaultsOSRD
+preplace inst full_wave_rectifier_13 -pg 1 -lvl 2 -x 590 -y 540 -defaultsOSRD
+preplace inst full_wave_rectifier_14 -pg 1 -lvl 2 -x 590 -y 400 -defaultsOSRD
+preplace inst full_wave_rectifier_15 -pg 1 -lvl 2 -x 590 -y 680 -defaultsOSRD
+preplace inst full_wave_rectifier_16 -pg 1 -lvl 2 -x 590 -y 820 -defaultsOSRD
+preplace inst full_wave_rectifier_17 -pg 1 -lvl 2 -x 590 -y 960 -defaultsOSRD
+preplace inst full_wave_rectifier_18 -pg 1 -lvl 2 -x 590 -y 1100 -defaultsOSRD
+preplace inst full_wave_rectifier_19 -pg 1 -lvl 2 -x 590 -y 1240 -defaultsOSRD
+preplace inst full_wave_rectifier_20 -pg 1 -lvl 2 -x 590 -y 1500 -defaultsOSRD
+preplace inst full_wave_rectifier_21 -pg 1 -lvl 2 -x 590 -y 1600 -defaultsOSRD
+preplace inst full_wave_rectifier_22 -pg 1 -lvl 2 -x 590 -y 1720 -defaultsOSRD
+preplace inst full_wave_rectifier_23 -pg 1 -lvl 2 -x 590 -y 2120 -defaultsOSRD
+preplace inst vector_multiplier_0 -pg 1 -lvl 5 -x 1820 -y 2410 -defaultsOSRD
+preplace inst filterbank_0 -pg 1 -lvl 1 -x 140 -y 2110 -defaultsOSRD
+preplace inst filterbank_1 -pg 1 -lvl 4 -x 1310 -y 2810 -defaultsOSRD
+preplace inst lpf_1 -pg 1 -lvl 3 -x 970 -y 240 -defaultsOSRD
+preplace inst lpf_2 -pg 1 -lvl 4 -x 1310 -y 220 -defaultsOSRD
+preplace inst lpf_19 -pg 1 -lvl 3 -x 970 -y 940 -defaultsOSRD
+preplace inst lpf_21 -pg 1 -lvl 3 -x 970 -y 1080 -defaultsOSRD
+preplace inst lpf_23 -pg 1 -lvl 3 -x 970 -y 1220 -defaultsOSRD
+preplace inst lpf_25 -pg 1 -lvl 3 -x 970 -y 1360 -defaultsOSRD
+preplace inst lpf_27 -pg 1 -lvl 3 -x 970 -y 1500 -defaultsOSRD
+preplace inst lpf_29 -pg 1 -lvl 3 -x 970 -y 1640 -defaultsOSRD
+preplace inst lpf_31 -pg 1 -lvl 3 -x 970 -y 1780 -defaultsOSRD
+preplace inst lpf_33 -pg 1 -lvl 3 -x 970 -y 1920 -defaultsOSRD
+preplace inst lpf_35 -pg 1 -lvl 3 -x 970 -y 2060 -defaultsOSRD
+preplace inst lpf_37 -pg 1 -lvl 3 -x 970 -y 2200 -defaultsOSRD
+preplace inst lpf_3 -pg 1 -lvl 3 -x 970 -y 100 -defaultsOSRD
+preplace inst lpf_39 -pg 1 -lvl 3 -x 970 -y 2340 -defaultsOSRD
+preplace inst lpf_41 -pg 1 -lvl 3 -x 970 -y 2500 -defaultsOSRD
+preplace inst lpf_43 -pg 1 -lvl 3 -x 970 -y 2640 -defaultsOSRD
+preplace inst lpf_45 -pg 1 -lvl 3 -x 970 -y 2800 -defaultsOSRD
+preplace inst lpf_47 -pg 1 -lvl 3 -x 970 -y 3360 -defaultsOSRD
+preplace inst lpf_5 -pg 1 -lvl 3 -x 970 -y 2940 -defaultsOSRD
+preplace inst lpf_7 -pg 1 -lvl 3 -x 970 -y 3080 -defaultsOSRD
+preplace inst lpf_9 -pg 1 -lvl 3 -x 970 -y 3220 -defaultsOSRD
+preplace inst lpf_11 -pg 1 -lvl 3 -x 970 -y 520 -defaultsOSRD
+preplace inst lpf_13 -pg 1 -lvl 3 -x 970 -y 380 -defaultsOSRD
+preplace inst lpf_15 -pg 1 -lvl 3 -x 970 -y 660 -defaultsOSRD
+preplace inst lpf_17 -pg 1 -lvl 3 -x 970 -y 800 -defaultsOSRD
+preplace inst lpf_4 -pg 1 -lvl 4 -x 1310 -y 80 -defaultsOSRD
+preplace inst lpf_22 -pg 1 -lvl 4 -x 1310 -y 1060 -defaultsOSRD
+preplace inst lpf_24 -pg 1 -lvl 4 -x 1310 -y 1200 -defaultsOSRD
+preplace inst lpf_26 -pg 1 -lvl 4 -x 1310 -y 1340 -defaultsOSRD
+preplace inst lpf_28 -pg 1 -lvl 4 -x 1310 -y 1480 -defaultsOSRD
+preplace inst lpf_30 -pg 1 -lvl 4 -x 1310 -y 1620 -defaultsOSRD
+preplace inst lpf_32 -pg 1 -lvl 4 -x 1310 -y 1760 -defaultsOSRD
+preplace inst lpf_34 -pg 1 -lvl 4 -x 1310 -y 1900 -defaultsOSRD
+preplace inst lpf_36 -pg 1 -lvl 4 -x 1310 -y 2040 -defaultsOSRD
+preplace inst lpf_38 -pg 1 -lvl 4 -x 1310 -y 2180 -defaultsOSRD
+preplace inst lpf_40 -pg 1 -lvl 4 -x 1310 -y 2320 -defaultsOSRD
+preplace inst lpf_6 -pg 1 -lvl 4 -x 1310 -y 3440 -defaultsOSRD
+preplace inst lpf_42 -pg 1 -lvl 4 -x 1310 -y 2460 -defaultsOSRD
+preplace inst lpf_44 -pg 1 -lvl 4 -x 1310 -y 3160 -defaultsOSRD
+preplace inst lpf_46 -pg 1 -lvl 4 -x 1310 -y 3300 -defaultsOSRD
+preplace inst lpf_48 -pg 1 -lvl 4 -x 1310 -y 3860 -defaultsOSRD
+preplace inst lpf_8 -pg 1 -lvl 4 -x 1310 -y 3720 -defaultsOSRD
+preplace inst lpf_10 -pg 1 -lvl 4 -x 1310 -y 3580 -defaultsOSRD
+preplace inst lpf_12 -pg 1 -lvl 4 -x 1310 -y 500 -defaultsOSRD
+preplace inst lpf_14 -pg 1 -lvl 4 -x 1310 -y 360 -defaultsOSRD
+preplace inst lpf_16 -pg 1 -lvl 4 -x 1310 -y 640 -defaultsOSRD
+preplace inst lpf_18 -pg 1 -lvl 4 -x 1310 -y 780 -defaultsOSRD
+preplace inst lpf_20 -pg 1 -lvl 4 -x 1310 -y 920 -defaultsOSRD
+preplace netloc filterbank_0_y_out_0 1 1 1 270 260n
+preplace netloc filterbank_0_y_out_1 1 1 1 260 120n
+preplace netloc filterbank_0_y_out_2 1 1 1 370 1380n
+preplace netloc filterbank_0_y_out_3 1 1 1 NJ 2220
+preplace netloc filterbank_0_y_out_4 1 1 1 420J 2240n
+preplace netloc filterbank_0_y_out_5 1 1 1 400J 2260n
+preplace netloc filterbank_0_y_out_6 1 1 1 370J 2280n
+preplace netloc filterbank_0_y_out_7 1 1 1 340J 2300n
+preplace netloc filterbank_0_y_out_8 1 1 1 310J 2320n
+preplace netloc filterbank_0_y_out_9 1 1 1 260J 2340n
+preplace netloc filterbank_0_y_out_10 1 1 1 330J 1820n
+preplace netloc filterbank_0_y_out_11 1 1 1 350J 1920n
+preplace netloc filterbank_0_y_out_12 1 1 1 390J 1960n
+preplace netloc filterbank_0_y_out_13 1 1 1 290 540n
+preplace netloc filterbank_0_y_out_14 1 1 1 280 400n
+preplace netloc filterbank_0_y_out_15 1 1 1 300 680n
+preplace netloc filterbank_0_y_out_16 1 1 1 310 820n
+preplace netloc filterbank_0_y_out_17 1 1 1 320 960n
+preplace netloc filterbank_0_y_out_18 1 1 1 340 1100n
+preplace netloc filterbank_0_y_out_19 1 1 1 360 1240n
+preplace netloc filterbank_0_y_out_20 1 1 1 380 1500n
+preplace netloc filterbank_0_y_out_21 1 1 1 400 1600n
+preplace netloc filterbank_0_y_out_22 1 1 1 410 1720n
+preplace netloc filterbank_0_y_out_23 1 1 1 420J 2120n
+preplace netloc lpf_1_y_out 1 3 1 N 240
+preplace netloc full_wave_rectifier_0_out_signal 1 2 1 NJ 260
+preplace netloc full_wave_rectifier_0_out_signal1 1 2 1 NJ 120
+preplace netloc lpf_1_y_out1 1 3 1 N 100
+preplace netloc full_wave_rectifier_0_out_signal2 1 2 1 830 1820n
+preplace netloc lpf_1_y_out2 1 3 1 1110 2940n
+preplace netloc full_wave_rectifier_0_out_signal3 1 2 1 780 1920n
+preplace netloc lpf_1_y_out3 1 3 1 1100 3080n
+preplace netloc full_wave_rectifier_0_out_signal4 1 2 1 760 2020n
+preplace netloc lpf_1_y_out4 1 3 1 1090 3220n
+preplace netloc full_wave_rectifier_0_out_signal5 1 2 1 NJ 540
+preplace netloc lpf_1_y_out5 1 3 1 N 520
+preplace netloc full_wave_rectifier_0_out_signal6 1 2 1 NJ 400
+preplace netloc lpf_1_y_out6 1 3 1 N 380
+preplace netloc full_wave_rectifier_0_out_signal7 1 2 1 NJ 680
+preplace netloc lpf_1_y_out7 1 3 1 N 660
+preplace netloc full_wave_rectifier_0_out_signal8 1 2 1 NJ 820
+preplace netloc lpf_1_y_out8 1 3 1 N 800
+preplace netloc full_wave_rectifier_0_out_signal9 1 2 1 NJ 960
+preplace netloc lpf_1_y_out9 1 3 1 N 940
+preplace netloc full_wave_rectifier_0_out_signal10 1 2 1 NJ 1100
+preplace netloc lpf_1_y_out10 1 3 1 N 1080
+preplace netloc full_wave_rectifier_0_out_signal11 1 2 1 NJ 1240
+preplace netloc lpf_1_y_out11 1 3 1 N 1220
+preplace netloc full_wave_rectifier_0_out_signal12 1 2 1 NJ 1380
+preplace netloc lpf_1_y_out12 1 3 1 N 1360
+preplace netloc full_wave_rectifier_0_out_signal13 1 2 1 830J 1500n
+preplace netloc lpf_1_y_out13 1 3 1 N 1500
+preplace netloc full_wave_rectifier_0_out_signal14 1 2 1 860J 1600n
+preplace netloc lpf_1_y_out14 1 3 1 N 1640
+preplace netloc full_wave_rectifier_0_out_signal15 1 2 1 860J 1720n
+preplace netloc lpf_1_y_out15 1 3 1 N 1780
+preplace netloc full_wave_rectifier_0_out_signal16 1 2 1 750 1940n
+preplace netloc lpf_1_y_out16 1 3 1 N 1920
+preplace netloc full_wave_rectifier_0_out_signal17 1 2 1 770 2080n
+preplace netloc lpf_1_y_out17 1 3 1 N 2060
+preplace netloc full_wave_rectifier_0_out_signal18 1 2 1 790 2220n
+preplace netloc lpf_1_y_out18 1 3 1 N 2200
+preplace netloc full_wave_rectifier_0_out_signal19 1 2 1 840 2360n
+preplace netloc lpf_1_y_out19 1 3 1 N 2340
+preplace netloc full_wave_rectifier_0_out_signal20 1 2 1 N 2520
+preplace netloc lpf_1_y_out20 1 3 1 1100 2480n
+preplace netloc full_wave_rectifier_0_out_signal21 1 2 1 790 2620n
+preplace netloc lpf_1_y_out21 1 3 1 1180 2640n
+preplace netloc full_wave_rectifier_0_out_signal22 1 2 1 770 2720n
+preplace netloc lpf_1_y_out22 1 3 1 1150 2800n
+preplace netloc full_wave_rectifier_0_out_signal23 1 2 1 750 2820n
+preplace netloc lpf_1_y_out23 1 3 1 1070 3360n
+preplace netloc sim_clk_gen_1_clk 1 0 4 20 2850 420J 2900 820 3450 1160
+preplace netloc sim_clk_gen_1_sync_rst 1 0 4 10 2860 340J 2880 850 20 1140
+preplace netloc lpf_2_y_out 1 4 1 1650 220n
+preplace netloc lpf_4_y_out 1 4 1 1660 80n
+preplace netloc lpf_6_y_out 1 4 1 1500 1980n
+preplace netloc lpf_8_y_out 1 4 1 1530 2000n
+preplace netloc lpf_10_y_out 1 4 1 1540 2020n
+preplace netloc lpf_12_y_out 1 4 1 1620 500n
+preplace netloc lpf_14_y_out 1 4 1 1630 360n
+preplace netloc lpf_16_y_out 1 4 1 1600 640n
+preplace netloc lpf_18_y_out 1 4 1 1590 780n
+preplace netloc lpf_20_y_out 1 4 1 1580 920n
+preplace netloc lpf_22_y_out 1 4 1 1560 1060n
+preplace netloc lpf_24_y_out 1 4 1 1520 1200n
+preplace netloc lpf_26_y_out 1 4 1 1490 1340n
+preplace netloc lpf_28_y_out 1 4 1 1480 1480n
+preplace netloc lpf_30_y_out 1 4 1 1470 1620n
+preplace netloc lpf_32_y_out 1 4 1 1460 1760n
+preplace netloc lpf_34_y_out 1 4 1 1450 1900n
+preplace netloc lpf_36_y_out 1 4 1 1440 2040n
+preplace netloc lpf_38_y_out 1 4 1 1430 2180n
+preplace netloc lpf_40_y_out 1 4 1 N 2320
+preplace netloc lpf_42_y_out 1 4 1 1430 2340n
+preplace netloc lpf_44_y_out 1 4 1 1520 2360n
+preplace netloc lpf_46_y_out 1 4 1 1560 2380n
+preplace netloc lpf_48_y_out 1 4 1 1620 2400n
+preplace netloc filterbank_1_y_out_0 1 4 1 1440 2420n
+preplace netloc filterbank_1_y_out_1 1 4 1 1450 2440n
+preplace netloc filterbank_1_y_out_10 1 4 1 N 2620
+preplace netloc filterbank_1_y_out_11 1 4 1 N 2640
+preplace netloc filterbank_1_y_out_12 1 4 1 N 2660
+preplace netloc filterbank_1_y_out_13 1 4 1 N 2680
+preplace netloc filterbank_1_y_out_14 1 4 1 N 2700
+preplace netloc filterbank_1_y_out_15 1 4 1 N 2720
+preplace netloc filterbank_1_y_out_16 1 4 1 N 2740
+preplace netloc filterbank_1_y_out_17 1 4 1 N 2760
+preplace netloc filterbank_1_y_out_18 1 4 1 N 2780
+preplace netloc filterbank_1_y_out_19 1 4 1 N 2800
+preplace netloc filterbank_1_y_out_2 1 4 1 1460 2460n
+preplace netloc filterbank_1_y_out_20 1 4 1 1570 2820n
+preplace netloc filterbank_1_y_out_21 1 4 1 1590 2840n
+preplace netloc filterbank_1_y_out_22 1 4 1 1610 2860n
+preplace netloc filterbank_1_y_out_23 1 4 1 1640 2880n
+preplace netloc filterbank_1_y_out_3 1 4 1 1510 2480n
+preplace netloc filterbank_1_y_out_4 1 4 1 1550 2500n
+preplace netloc filterbank_1_y_out_5 1 4 1 1580 2520n
+preplace netloc filterbank_1_y_out_6 1 4 1 1600 2540n
+preplace netloc filterbank_1_y_out_7 1 4 1 1630 2560n
+preplace netloc filterbank_1_y_out_8 1 4 1 1650 2580n
+preplace netloc filterbank_1_y_out_9 1 4 1 1660 2600n
+preplace netloc x_in_0_0_1 1 0 1 N 2130
+preplace netloc clk_0_0_1 1 0 4 -20J 2870 NJ 2870 860J 2420 1190J
+preplace netloc reset_0_0_1 1 0 4 NJ 2890 NJ 2890 870J 2720 1170J
+preplace netloc x_in_0_1_1 1 0 4 -30J 2880 260J 2910 740J 3440 1080J
+preplace netloc vector_multiplier_0_result 1 5 1 N 2410
+levelinfo -pg 1 -50 140 590 970 1310 1820 1990
+pagesize -pg 1 -db -bbox -sgen -200 0 2140 3940
+"
+}
+0
