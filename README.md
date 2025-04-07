@@ -12,32 +12,32 @@ The team attempted to implement some additional modules, including an audio proc
 (The project tree below only includes the important files or the files that have changed from the DMA Audio demo)  
 ece-vocoder-project/Nexys-Video-DMA-hw.xpr/Nexys-Video-HW/  
 ├── Nexys-Video-DMA/  
-│   ├── src/
-│   │   ├── userio/
-│   │   |   ├── userio.c  # added functions to handle 16 button interactions
-│   │   |   └── userio.h  # header file for userio.c
-│   │   ├── demo.c        # added 16 button interrupt and behaviour cases for some button presses
-│   │   ├── demo.h        # header file for demo.co
-│   │   └── ...        
-│   └── ...              
-├── Nexys-Video-HW.ipdefs/repo/local/ip
-│   ├── biquad filter           # custom ip for biquad filter 
-│   ├── d_axi_i2s_audio_v2_0    # i2s IP; from demo
-│   ├── filterbank              # custom ip for filter bank with 24 biquad filter channels
-│   └── ip_repo                 # custom ip for audio processing custom IP block; uses filterbank and biquad sub-ips
-├── Nexys-Video-HW.srcs
-│   ├── constrs_1/imports/constraints   # constraints file for Nexys board ports
-│   ├── sources_1/                      
-│   │   ├── bd/                       
-│   │   |   ├── design_1/               # block diagram of whole project system
-│   │   |   └── design_2/               # block diagram for audio processing custom IP block
-│   │   ├── imports/Downloads/                       
-│   │   |   ├── decoder.v               # 16-btn decoder
-│   │   |   └── sign_extend.v           # extend input width to fit filter/i2s modules
+│   ├── src/  
+│   │   ├── userio/  
+│   │   |   ├── userio.c  # added functions to handle 16 button interactions  
+│   │   |   └── userio.h  # header file for userio.c  
+│   │   ├── demo.c        # added 16 button interrupt and behaviour cases for some button presses  
+│   │   ├── demo.h        # header file for demo.co  
+│   │   └── ...          
+│   └── ...                
+├── Nexys-Video-HW.ipdefs/repo/local/ip  
+│   ├── biquad filter           # custom ip for biquad filter   
+│   ├── d_axi_i2s_audio_v2_0    # i2s IP; from demo  
+│   ├── filterbank              # custom ip for filter bank with 24 biquad filter channels  
+│   └── ip_repo                 # custom ip for audio processing custom IP block; uses filterbank and biquad sub-ips  
+├── Nexys-Video-HW.srcs  
+│   ├── constrs_1/imports/constraints   # constraints file for Nexys board ports  
+│   ├── sources_1/                        
+│   │   ├── bd/                        
+│   │   |   ├── design_1/               # block diagram of whole project system  
+│   │   |   └── design_2/               # block diagram for audio processing custom IP block  
+│   │   ├── imports/Downloads/                        
+│   │   |   ├── decoder.v               # 16-btn decoder  
+│   │   |   └── sign_extend.v           # extend input width to fit filter/i2s modules  
 │   │   ├── new/                       
-│   │   |   ├── top.v                   # top wrapper for block design and other modules
-│   │   |   └── ...          
-│   └── ...                  
-├── Nexys-Video-HW.xpr       # project file
+│   │   |   ├── top.v                   # top wrapper for block design and other modules  
+│   │   |   └── ...            
+│   └── ...                    
+├── Nexys-Video-HW.xpr       # project file  
 ├── ...                      
-└── README.md
+└── README.md  
